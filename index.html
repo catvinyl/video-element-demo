@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-element-demo</title>
+</head>
+<body>
+    <h1>video-element-demo</h1>
+    <b>Example video element usage</b>
+    <h2>Video info</h1>
+    <p>250 webm audio only 2 │ 4.95MiB 65k https │ audio only opus 65k 48k low, webm_dash <br>
+    396 mp4 640x360 30 │ 17.75MiB 235k https │ av01.0.01M.08 235k video only 360p, mp4_dash</p>
+    <br>
+    <b>Name: Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film [aqz-KE-bpKQ].webm</b>
+    <br>
+    <i>(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org</b>
+    <br>
+    <i>Blender Foundation | www.blender.org</b>
+    <h2>Video +controls +autoplay</h2>
+    <video controls autoplay src="Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film [aqz-KE-bpKQ].webm"></video>
+    <h2>Video +controls</h2>
+    <video controls src="Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film [aqz-KE-bpKQ].webm"></video>
+    <h2>Video blob +controls</h2>
+    <b>Logs:</b>
+    <div id="logs" style="display: inline-grid;"></div>
+    <video controls id="blobvideo"></video>
+    <br>
+    <progress id="progressBar"></progress>
+    <h3>Progress of download full video</h3>
+    <script src="blobvideo.js"></script>
+</body>
+</html>
